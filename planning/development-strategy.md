@@ -6,6 +6,16 @@ This is a simple website in which users can check their JS knowledge by taking a
 
 ---
 
+## Data
+
+> describe the data used in your project.
+>
+> - what properties?
+> - what types?
+> - what are array entries like?
+
+---
+
 ## User Story Dependencies
 
 ![Story Dependency Diagram]()
