@@ -50,8 +50,8 @@ const quizData = {
         b: 'var, const, let, function',
         c: 'var, let, const',
       },
-      correct: 2,
-      selected: -1,
+      correct: 'c',
+      selected: null,
       links: [
         {
           text: 'javascript.info',
@@ -65,14 +65,14 @@ const quizData = {
     },
     {
       text: 'What does `typeof` do?',
-      answers: [
-        'changes the type of a primitive value',
-        'returns a string describing the type of a value',
-        'determines if a value is primitive',
-        'can tell the difference between arrays and objects',
-      ],
-      correct: 1,
-      selected: -1,
+      answers: {
+        a: 'changes the type of a primitive value',
+        b: 'returns a string describing the type of a value',
+        c: 'determines if a value is primitive',
+        d: 'can tell the difference between arrays and objects',
+      },
+      correct: 'b',
+      selected: null,
       links: [
         {
           text: 'javascript.info',
