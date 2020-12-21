@@ -34,7 +34,7 @@ const quizData = {
   quiz: {
     // how many questions has the user answered?
     //  you can calculate this value by iterating through the questions
-    //  is selected === -1?
+    //  is selected === null?
     answered: 0,
     // how many correct answers has the user submitted?
     //  you can calculate this value by iterating through the questions
