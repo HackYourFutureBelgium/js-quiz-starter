@@ -1,6 +1,6 @@
 'use strict';
 
-import { logger } from '/lib/logger.js';
+import { logger } from '../../lib/logger.js';
 
 import { data } from '../data.js';
 import { artify } from '../views/artify.js';
@@ -9,7 +9,7 @@ import { artify } from '../views/artify.js';
  * creates a mirror-image rendering of the user input and displays the growing artwork
  * @param {Event} event - triggered whenever a user releases a key in the input area
  */
-export const artifyHandler = event => {
+export const artifyHandler = (event) => {
   // ignore the event if the user is correcting a mistake
   if (event.keyCode === 8 || event.keyCode === 46) {
     return;

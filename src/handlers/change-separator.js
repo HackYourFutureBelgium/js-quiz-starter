@@ -1,6 +1,6 @@
 'use strict';
 
-import { logger } from '/lib/logger.js';
+import { logger } from '../../lib/logger.js';
 
 import { data } from '../data.js';
 import { artify } from '../views/artify.js';
@@ -9,7 +9,7 @@ import { artify } from '../views/artify.js';
  * changes the program's separator value
  * @param {Event} event - triggered whenever a user types in the separator input area
  */
-export const changeSeparatorHandler = event => {
+export const changeSeparatorHandler = (event) => {
   // read user input
   const newSeparator = event.target.value;
 
